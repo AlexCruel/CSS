@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+
+<body>
+    <!-- basics onclick -->
+    <input onclick="alert('!')">
+    <input onclick="func()">
+    <input onclick="func1(); func2()">
+    
+    <br>
+    <hr>
+    
+    <!-- second -->
+    <input type="text" value="!" id="test">
+    <input type="submit" onclick="second()">
+    <input type="text" class="nameOfClass" id="test1">
+    <input type="submit" onclick="nameOfClass()">
+    
+    <br>
+    <hr>
+    
+    <!-- this -->
+    <input type="submit" onclick="testFunc(this)" value="input1">
+    <input type="submit" onclick="testFunc(this)" value="input2">
+    <input type="submit" onclick="testFunc(this)" value="input3">
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
