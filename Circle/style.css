@@ -16,7 +16,7 @@ body > div {
     font-size:100px;
     line-height:1;
     animation: circle 5s linear infinite;
-    transform-origin:50% 200px;
+    transform-origin: 50% 200px;
 }
 
 div > div {
